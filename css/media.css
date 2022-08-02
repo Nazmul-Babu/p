@@ -1,0 +1,186 @@
+ 
+ /* Extra large devices  */
+@media (min-width: 1200px) { 
+    
+ 
+    .education_part i::after{
+        
+        bottom: -100px;
+        
+        
+        }
+
+}
+
+
+/* Large devices */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .home_image_part::after {
+        
+        visibility: visible;
+    }
+    .home_image_part{
+        padding-top: 20px;
+    }
+
+    
+    .education_part i::after{
+        
+        bottom: -100px;
+        
+        
+        }
+
+ }
+
+/* Medium devices  */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+    #home_part {
+        
+        padding-top: 80px;
+        padding-bottom: 80px;
+        
+    }
+    .wrapper_text{
+        margin-left: 80px;
+    }
+    .home_text_part p{
+        padding-bottom: 20px;
+    }
+    .home_image_part{
+        padding-top: 20px;
+    }
+    .home_image_part::after {
+        
+     visibility: visible;
+    }
+    .social_media_part {
+      
+      visibility: visible;
+    }
+    .education_part i::after{
+        
+        bottom: -110px;
+        
+        
+        }
+ }
+
+ /* Small devices  */
+ @media (min-width: 576px) and (max-width: 767.98px) { 
+
+    #home_part {
+        
+        padding-top: 80px;
+        padding-bottom: 80px;
+        
+    }
+    .home_text_part p{
+        padding-bottom: 20px;
+    }
+    .home_image_part{
+        padding-top: 20px;
+    }
+
+    .home_image_part::after {
+        
+       visibility: visible;
+    }
+
+    .social_media_part {
+      
+       visibility: visible;
+    }
+    .education_part i::after{
+        
+        bottom: -110px;
+        
+        
+        }
+  }
+
+ /* Extra small devices  */
+@media (max-width: 575.98px) { 
+
+    .sidenavopen{
+       
+        
+
+        height: 80%;
+  
+       
+    }
+    #home_part {
+        
+        padding-top: 80px;
+        padding-bottom: 80px;
+        
+    }
+    .wrapper_text .static_text{
+    
+        
+        font-size: 16px;
+        
+    
+    }
+    .wrapper_text .dynamic_text{
+        margin-left: 5px;
+    }
+    .dynamic_text li{
+        
+        font-size: 16px;
+        
+        
+    }
+    .home_text_part p{
+        padding-bottom: 20px;
+    }
+    .home_image_part {
+        padding-top: 20px;
+        
+    }
+    .home_image_part img {
+       
+        height: 300px;
+        width: 300px;
+    }
+    .home_image_part::after {
+        
+       visibility: visible;
+    }
+    .social_media_part {
+      
+       visibility: visible;
+    }
+    .heading_part h2{
+       line-height: 30px;
+    }
+    .education_part{
+        
+        border-right: none;
+    
+        
+        
+    }
+    .education_part h3{
+        font-size: 14px;
+     
+         
+         
+     }
+     .education_part i::after{
+        
+        bottom: -120px;
+       
+        
+        
+        
+        
+        }
+    
+ }
+
+
+
+ 
